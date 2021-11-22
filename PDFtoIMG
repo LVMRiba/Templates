@@ -1,0 +1,29 @@
+from pdf2image import convert_from_path
+
+##### IMPORTANTE #####
+"""
+Para o bom funcionamento do código a seguir, é necessário baixar uma versão do Poppler (https://blog.alivate.com.au/poppler-windows/)
+e atualização abaixo do diretório onde esta biblioteca está instalada (neste caso, no diretório do projeto em que o mesmo é executado).
+A mais recente versão do Poppler após a publicação deste algoritmo é 0.68.0
+"""
+
+poppler_path = r"poppler-0.68.0/bin"
+
+##### MÉTODO #####
+
+# filename
+pdf_file = "PDF_SAMPLE.pdf"
+
+# O código abaixo foi criado para um pdf de 500 páginas e com intenção de ainda reduzir o gasto de memória do PC.
+
+counter = 1
+for page in range(1, 500, 10):
+    pil_images = convert_from_path(pdf_file, first_page=page, last_page=min(page + 10 - 1, 500),
+                                   poppler_path=poppler_path)
+    print(f'INTERVALO: {page}-{page+10}')
+
+    for image in pil_images:
+        jpeg_file = "ToA-" + str(counter) + '.jpeg'
+        image.save(jpeg_file, "JPEG")
+        counter += 1
+        print(jpeg_file)
