@@ -13,4 +13,5 @@ Coletânea de templates de algoritmos para execução de diversas tarefas
   - **Strings**: Dicas sobre Strings
   - **Tricks**: Truques para otimizar um algoritmo
 
+- **RenameFiles**: Renomeação de nomes de arquivos
 - **PDFtoIMG**: Conversão de PDF em Imagens (JPEG) 
