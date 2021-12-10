@@ -1,0 +1,4 @@
+EUR
+BTC
+USD
+BRL
