@@ -1,6 +1,5 @@
 # Templates
-Coletânea de templates de algoritmos para execução de diversas tarefas
-
+Coletânea de Templates de algoritmos para execução de diversas tarefas
 
 - **HINTS**: Coletânea de Dicas para Python (em formato Júpiter Notebook / ipynb)
   - **Alternatives**: Diferentes formas de se fazer um mesmo algoritmo
@@ -13,5 +12,7 @@ Coletânea de templates de algoritmos para execução de diversas tarefas
   - **Strings**: Dicas sobre Strings
   - **Tricks**: Truques para otimizar um algoritmo
 
-- **RenameFiles**: Renomeação de nomes de arquivos
-- **PDFtoIMG**: Conversão de PDF em Imagens (JPEG) 
+- **TEMPLATES**: Coletânea de Templates de algoritmos para execução de diversas tarefas
+  - **CurrencyConversion**: Cotação de Moedas
+  - **RenameFiles**: Renomeação de Arquivos
+  - **PDFtoIMG**: Conversão de PDF em Imagens (JPEG) 
