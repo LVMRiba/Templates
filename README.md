@@ -1,6 +1,11 @@
 # Templates
 Coletânea de Templates de algoritmos para execução de diversas tarefas
 
+- **FUTURE PLANS**
+  - ReadPDFTable: Leitura de tabelas de PDF
+  - SendEmail: Enviar e-mail
+  - Webscrapping: Extrair texto de página da internet
+
 - **HINTS**: Coletânea de Dicas para Python (em formato Júpiter Notebook / ipynb)
   - **Alternatives**: Diferentes formas de se fazer um mesmo algoritmo
   - **Conditionals**: Dicas sobre Condicionais
